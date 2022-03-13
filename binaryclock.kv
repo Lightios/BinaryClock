@@ -1,0 +1,74 @@
+Screen:
+    BoxLayout:
+        Column:
+            id: hour_tens
+            Box:
+                pos_hint: {"center_y": 0.1}
+            Box:
+                pos_hint: {"center_y": 0.3}
+
+        Column:
+            id: hour_ones
+            orientation: "vertical"
+            Box:
+                pos_hint: {"center_y": 0.1}
+            Box:
+                pos_hint: {"center_y": 0.3}
+            Box:
+                pos_hint: {"center_y": 0.5}
+            Box:
+                pos_hint: {"center_y": 0.7}
+
+        Column:
+            id: minute_tens
+            orientation: "vertical"
+            Box:
+                pos_hint: {"center_y": 0.1}
+            Box:
+                pos_hint: {"center_y": 0.3}
+            Box:
+                pos_hint: {"center_y": 0.5}
+
+        Column:
+            id: minute_ones
+            orientation: "vertical"
+            Box:
+                pos_hint: {"center_y": 0.1}
+            Box:
+                pos_hint: {"center_y": 0.3}
+            Box:
+                pos_hint: {"center_y": 0.5}
+            Box:
+                pos_hint: {"center_y": 0.7}
+
+        Column:
+            id: second_tens
+            orientation: "vertical"
+            Box:
+                pos_hint: {"center_y": 0.1}
+            Box:
+                pos_hint: {"center_y": 0.3}
+            Box:
+                pos_hint: {"center_y": 0.5}
+
+        Column:
+            id: second_ones
+            orientation: "vertical"
+            Box:
+                pos_hint: {"center_y": 0.1}
+            Box:
+                pos_hint: {"center_y": 0.3}
+            Box:
+                pos_hint: {"center_y": 0.5}
+            Box:
+                pos_hint: {"center_y": 0.7}
+
+<Column@RelativeLayout>:
+    padding: 10
+    spacing: 10
+    orientation: "vertical"
+
+<Box@Image>:
+    source: "Images/empty.jpg"
+    size_hint: None, None
+    size: 30, 30
